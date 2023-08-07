@@ -11,7 +11,7 @@ const app = express();
 
 const corsOptions = {
     origin: [
-        "http://localhost:3000"],
+        "http://localhost:3000","https://leafy-basbousa-e3138f.netlify.app"],
     methods: ["GET", "POST"],
     credentials: true,
 }
